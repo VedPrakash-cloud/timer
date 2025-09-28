@@ -38,8 +38,8 @@ function App() {
 
   return (
     <div className="App">
-      <h1>StopWatch</h1>
-      <p>Time:{countTime(countSeconds)}</p>
+      <h1>Stopwatch</h1>
+      <p>Time: {countTime(countSeconds)}</p>
       <button onClick={timeStart}>{isRunning? "Stop":"Start"}</button>
       <button onClick={resetTimer}>Reset</button>
     </div>
